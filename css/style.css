@@ -25,7 +25,7 @@ body, input {
 main {
     width: 80vw;
     height: 80vh;
-    margin: 10vh 8vw 10vh 12vw;
+    margin: 10vh 8vw 2vh 12vw;
     display: flex;
     gap: 1vw;
 }
@@ -213,9 +213,9 @@ main {
 .cores{
     display: inline-flex;
     padding: 1em 0 1em 1em;
-    margin-left: 15rem;
     clip-path: polygon(0% 15%, 5% 0, 95% 0, 100% 15%, 100% 85%, 95% 100%, 5% 100%, 0% 85%);
     background: rgba(0, 0, 0, 0.6);
+    margin-left: 22rem;
 }
 
 .botao-cor {
@@ -239,23 +239,18 @@ main {
 .amarelo {
     background-color: yellow;
 }
-
 .azul {
     background-color: blue;
 }
-
 .branco {
     background-color: white;
 }
-
 .preto {
     background-color: black;
 }
-
 .rosa {
     background-color: pink;
 }
-
 .vermelho {
     background-color: red;
 }
@@ -267,11 +262,12 @@ main {
     main {
         width: 90vw;
         height: 80vh;
-        margin: 5vh auto 0 auto;
+        margin: 5vh auto 2vh auto;
     }
-    .botao-cor {
-        margin-left: 23rem;
+    .cores{
+        margin-left: 15rem;
     }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -282,6 +278,9 @@ main {
     main {
         width: 96vw;
         height: 80vh;
-        margin: 10vh auto 0 auto;
+        margin: 10vh auto 2vh auto;
+    }
+    .cores{
+        margin-left: 12rem;
     }
 }
