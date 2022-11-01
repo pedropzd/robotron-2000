@@ -210,6 +210,51 @@ main {
     margin: 10px 0 0;
 }
 
+.cores{
+    display: inline-flex;
+    padding: 1em 0 1em 1em;
+    margin-left: 15rem;
+    clip-path: polygon(0% 15%, 5% 0, 95% 0, 100% 15%, 100% 85%, 95% 100%, 5% 100%, 0% 85%);
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.botao-cor {
+    padding: 1em;
+    margin-right: 1em;
+    border-radius: 50%;
+    background-color: #000000;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.botao-cor:hover {
+    box-shadow: 0 0 9px 4px var(--main-cinza);
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.branco {
+    background-color: white;
+}
+
+.preto {
+    background-color: black;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.vermelho {
+    background-color: red;
+}
+
 @media screen and (max-width: 1600px) {
     body { 
         font-size: 14px;
