@@ -269,6 +269,9 @@ main {
         height: 80vh;
         margin: 5vh auto 0 auto;
     }
+    .botao-cor {
+        margin-left: 23rem;
+    }
 }
 
 @media screen and (max-width: 1200px) {
