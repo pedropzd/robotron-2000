@@ -223,12 +223,17 @@ main {
     margin-right: 1em;
     border-radius: 50%;
     background-color: #000000;
-    border: 2px solid black;
+    border: none;
     cursor: pointer;
+    border: 2px solid transparent;
 }
 
 .botao-cor:hover {
     box-shadow: 0 0 9px 4px var(--main-cinza);
+}
+
+.botao-cor:focus{
+    border: 2px solid rgb(0, 255, 76);
 }
 
 .amarelo {
@@ -262,7 +267,7 @@ main {
     main {
         width: 90vw;
         height: 80vh;
-        margin: 5vh auto;
+        margin: 5vh auto 0 auto;
     }
 }
 
@@ -274,6 +279,6 @@ main {
     main {
         width: 96vw;
         height: 80vh;
-        margin: 10vh auto;
+        margin: 10vh auto 0 auto;
     }
 }
