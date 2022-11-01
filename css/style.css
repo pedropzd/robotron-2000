@@ -215,7 +215,7 @@ main {
     padding: 1em 0 1em 1em;
     clip-path: polygon(0% 15%, 5% 0, 95% 0, 100% 15%, 100% 85%, 95% 100%, 5% 100%, 0% 85%);
     background: rgba(0, 0, 0, 0.6);
-    margin-left: 25rem;
+    margin-left: 24rem;
 }
 
 .botao-cor {
